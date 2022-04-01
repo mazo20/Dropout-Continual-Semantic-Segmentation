@@ -1,6 +1,6 @@
 # DCSS - Official Pytorch Implementation (Master's Thesis 2022)
 
-**SSUL: Semantic Segmentation with Unknown Label for Exemplar-based Class-Incremental Learning** <br />
+**DCSS: Continual Learning requires heavier regularisation** <br />
 Maciej Kowalski<sup>1</sup><br>
 
 <sup>1</sup> <sub>School of Informatics, University of Edinbburgh</sub><br />
