@@ -91,7 +91,7 @@ OMP_NUM_THREADS=${CPUS} python3 -m torch.distributed.run --master_port ${PORT} -
 
 ### Qualitative Results
 
-<img src = "https://github.com/mazo20/SSUL/blob/main/figures/examples.png" width="100%" height="100%">
+<img src = "https://github.com/mazo20/Dropout-Continual-Semantic-Segmentation/blob/master/figures/examples.png" width="100%" height="100%">
 
 # Acknowledgement
 
