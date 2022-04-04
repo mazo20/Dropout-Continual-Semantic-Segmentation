@@ -1,12 +1,11 @@
-# DCSS - Official Pytorch Implementation (Master's Thesis 2022)
+# Dropout Continual Semantic Segmentation
 
-**DCSS: Continual Learning requires heavier regularisation** <br />
+## Master's thesis
+
+**DCSS: Dropout Continual Semantic Segmentation** <br />
 Maciej Kowalski<sup>1</sup><br>
 
 <sup>1</sup> <sub>School of Informatics, University of Edinbburgh</sub><br />
-
-<!-- [![Paper](https://img.shields.io/badge/arXiv-2106.11562-brightgreen)](https://arxiv.org/abs/2106.11562)
-<img src = "https://github.com/clovaai/SSUL/blob/main/figures/SSUL_main.png" width="100%" height="100%"> -->
 
 # Abtract
 
