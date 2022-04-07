@@ -5,9 +5,15 @@
 **DCSS: Dropout Continual Semantic Segmentation** <br />
 Maciej Kowalski<sup>1</sup><br>
 
-<sup>1</sup> <sub>School of Informatics, University of Edinbburgh</sub><br />
+<sup>1</sup> <sub>School of Informatics, University of Edinburgh</sub><br />
 
 # Abtract
+
+Class-Incremental Semantic Segmentation (CISS) is an emerging trend of Continual Learning (CL) in Computer Vision. On top of the catastrophic forgetting issue known in CL, CISS suffers from the semantic drift of the background class, further increasing forgetting. Existing attempts aim to solve this using pseudo-labelling, knowledge distillation or model freezing. We attempt to improve upon these methods by focusing predominately on the offline architecture, claiming that without suitable adjustments, the offline training of the architecture removes valuable information for future steps, harming overall performance.
+
+We claim two main contributions. (1) Combining multiple class-specific 3 x 3 convolutions into one, large, shared module to improve efficient scaling for new, continual tasks (2) Introducing Dropout into the DeepLabV3 architecture to improve regularisation and decrease the *compression* of information, a concept introduced in the Information Bottleneck principle that we adapt for CL. 
+
+To demonstrate the effectiveness of our approach, we have created our Dropout Continual Semantic Segmentation model (DCSS) and compared it experimentally with existing work. DCSS achieves state-of-the-art results on various CISS scenarios on the PASCAL VOC dataset. We improve the IoU on the 15-1 and 10-1 scenarios by over 2% and 3% respectively while maintaining a smaller memory and MAdds footprint. Last, we propose a new benchmark setting that lies closer to the nature of lifelong learning in the hope for more realistic and valuable architectures in the future.
 
 # Experimental Results (mIoU all)
 
